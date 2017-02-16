@@ -34,14 +34,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UYM-wN-XEy">
-                                                    <rect key="frame" x="18" y="38" width="65" height="65"/>
+                                                    <rect key="frame" x="18" y="31.5" width="65" height="65"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="65" id="8D7-fX-NrS"/>
                                                         <constraint firstAttribute="height" constant="65" id="o7t-Np-qN6"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBK-51-uJc">
-                                                    <rect key="frame" x="18" y="7" width="53" height="23"/>
+                                                    <rect key="frame" x="18" y="7" width="53" height="16.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -58,7 +58,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQQ-Ug-wQb">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQQ-Ug-wQb">
                                                     <rect key="frame" x="91" y="38" width="268" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -75,6 +75,7 @@
                                                 <constraint firstItem="O2S-BE-QCZ" firstAttribute="top" secondItem="e5v-hJ-3DS" secondAttribute="top" constant="7" id="kwI-FN-UuN"/>
                                                 <constraint firstItem="n6Z-Zh-rEm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mBK-51-uJc" secondAttribute="trailing" constant="8" id="moN-6a-MaE"/>
                                                 <constraint firstAttribute="trailing" secondItem="O2S-BE-QCZ" secondAttribute="trailing" constant="8" id="q2k-HP-PhR"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="UYM-wN-XEy" secondAttribute="bottom" constant="20" id="thm-Ic-EWf"/>
                                                 <constraint firstItem="UYM-wN-XEy" firstAttribute="top" secondItem="mBK-51-uJc" secondAttribute="bottom" constant="8" id="u3O-3h-55w"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="MQQ-Ug-wQb" secondAttribute="bottom" constant="20" id="ud6-Dj-5BY"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="MQQ-Ug-wQb" secondAttribute="trailing" constant="8" id="vBj-Mk-rpR"/>

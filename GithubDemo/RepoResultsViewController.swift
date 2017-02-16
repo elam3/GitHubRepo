@@ -50,6 +50,9 @@ class RepoResultsViewController: UIViewController, UITableViewDelegate, UITableV
         tableView.dataSource = self
         tableView.delegate = self
 
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 120
+        
         // Initialize the UISearchBar
         searchBar = UISearchBar()
         searchBar.delegate = self
