@@ -22,7 +22,7 @@ class githubCell: UITableViewCell {
             name.text = repo.name
             stars.text = "\(repo.stars)"
             forks.text = "\(repo.forks)"
-            desc.text = repo.description
+            desc.text = repo.repoDescription
         }
     }
     
